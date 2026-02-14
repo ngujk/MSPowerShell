@@ -45,6 +45,6 @@ My name is Jackson, I am in my third term of CST - Cybersecurity.
 
 ### Task List
 - [x]Lab 5.1
-- []Lab 5.2
-- []Lab 6
-- []Upload to the Submission Folder
+- [x]Lab 5.2
+- [x]Lab 6
+- [x]Upload to the Submission Folder
