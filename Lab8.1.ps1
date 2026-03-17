@@ -22,7 +22,7 @@
         1.0 - Initial release
 
 .LINK
-    
+    https://github.com/ngujk/MSPowerShell
 #>
 Function Start-Something{
     throw "exception happened"

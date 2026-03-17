@@ -21,7 +21,7 @@
         1.0 - Initial release
 
 .LINK
-    https://link-to-related-docs-or-repo
+    https://github.com/ngujk/MSPowerShell
 #>
 
 Get-Disk
