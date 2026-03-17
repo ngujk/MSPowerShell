@@ -1,0 +1,1 @@
+Get-NetIPconfiguration  -Interfacealias "newnic" | Select-Object -ExpandProperty IPv4Address
