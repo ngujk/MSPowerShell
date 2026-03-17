@@ -1,1 +1,0 @@
-Enter-PSSession -ComputerName DC2 -Credential HIDDENZONE\Administrator
