@@ -15,7 +15,7 @@
 
 .NOTES
     Author: Elliot Burwood, Jackson Nguyen, Mohammmad Sharif
-    Created: 3/17/2026
+    Created: 3/15/2026
     Version: 1.0
     Last Modified: 3/17/2026
 
@@ -37,7 +37,7 @@ Function Get-GPO {
     $gpo = New-GPO -Name $gpoName -Comment "Security settings for computer"
 
     Write-Host "Step 2"
-    New-GPLink -Name $gpo.DisplayName -Target $ouPath -LinkEnabled Yes -Enforced $true
+    New-GPLink -Name $gpo.DisplayName -Target $ouPath -LinkEnabled Yes -Enforced No
 
     Write-Host "Step 3"
     Set-GPRegistryValue -Name $gpoName `
