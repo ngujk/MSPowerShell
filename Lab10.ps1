@@ -1,6 +1,6 @@
 <#                                                                  
 .SYNOPSIS
-     This creates and configures a secure GPO for the organizational unit.
+    This creates and configures a secure GPO for the organizational unit.
 
 .DESCRIPTION
     This script shows how links are given to a OU, and applies basic 
