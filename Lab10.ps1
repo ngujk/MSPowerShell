@@ -20,7 +20,7 @@
     Last Modified: 3/17/2026
 
 .LINK
-    https://link-to-related-docs-or-repo
+    https://github.com/ngujk/MSPowerShell/blob/main/Lab10.ps1
 #>
 
 Function Get-GPO {
