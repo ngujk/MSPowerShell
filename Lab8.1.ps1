@@ -109,11 +109,8 @@ throw (New-Object -TypeName System.IO.FileNotFoundException )
 throw (New-Object -TypeName System.IO.FileNotFoundException -ArgumentList "Could not find path: $path")
 
 
-# with normal message
 Write-Error -Message "Could not find path: $path" -Exception ([System.IO.FileNotFoundException]::new()) -ErrorAction Stop
-# With message inside new exception
 Write-Error -Exception ([System.IO.FileNotFoundException]::new("Could not find path: $path")) -ErrorAction Stop
-# Pre PS 5.0
 Write-Error -Exception ([System.IO.FileNotFoundException]"Could not find path: $path") -ErrorAction Stop
 Write-Error -Message "Could not find path: $path" -Exception ( New-Object -TypeName System.IO.FileNotFoundException ) -ErrorAction Stop
 
